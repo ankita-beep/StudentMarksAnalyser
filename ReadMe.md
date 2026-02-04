@@ -21,3 +21,17 @@ A simple Java console application to analyze student marks using OOP concepts.
    ```bash
    java Main
    ```
+   ## AI Assistance Disclosure
+
+This project was developed with the help of AI tools.
+The AI was used as a coding assistant for structure and logic guidance.
+
+I personally:
+- Ran and tested the code locally
+- Understood and verified the logic
+- Modified inputs and validated outputs
+- Managed the Git repository and commits
+
+The goal of this project is learning and demonstrating Java fundamentals.
+
+
