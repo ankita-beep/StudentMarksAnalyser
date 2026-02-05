@@ -1,3 +1,7 @@
+package com.student.analyzer;
+
+import java.util.Arrays;
+
 public class Student {
     private String name;
     private int rollNumber;
@@ -23,6 +27,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Roll No: " + rollNumber + ", Name: " + name;
+        return "Name: " + name + ", Roll Number: " + rollNumber + ", Marks: " + Arrays.toString(marks);
     }
 }

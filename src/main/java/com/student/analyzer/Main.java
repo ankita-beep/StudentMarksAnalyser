@@ -1,3 +1,5 @@
+package com.student.analyzer;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         MarksAnalyzer analyzer = new MarksAnalyzer();
 
-        System.out.println("Welcome to Student Marks Analyzer!");
+        System.out.println("Welcome to Student Marks Analyzer (Production Grade)!");
         System.out.print("Enter number of students: ");
         int numStudents = scanner.nextInt();
         scanner.nextLine(); // Consume newline

@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background-color: #fdf6e3;
+  /* Light cream background */
+  font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+  /* Funky font */
+}
+
+@theme {
+  --color-funky-orange: #FF5722;
+  --color-funky-red: #F44336;
+  --color-funky-blue: #2196F3;
+  --color-funky-yellow: #FFEB3B;
+  --font-funky: "Comic Sans MS", "Chalkboard SE", sans-serif;
+}
