@@ -6,11 +6,13 @@ public class Student {
     private String name;
     private int rollNumber;
     private int[] marks;
+    private int age;
 
-    public Student(String name, int rollNumber, int[] marks) {
+    public Student(String name, int rollNumber, int[] marks, int age) {
         this.name = name;
         this.rollNumber = rollNumber;
         this.marks = marks;
+        this.age = age;
     }
 
     public String getName() {
@@ -24,9 +26,12 @@ public class Student {
     public int[] getMarks() {
         return marks;
     }
+    public int getAge() {
+        return age;
+    }       
 
     @Override
     public String toString() {
-        return "Name: " + name + ", Roll Number: " + rollNumber + ", Marks: " + Arrays.toString(marks);
+        return "Name: " + name + ", Roll Number: " + rollNumber + ", Marks: " + Arrays.toString(marks) + ", Age: " + age;
     }
 }

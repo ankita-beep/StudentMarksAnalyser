@@ -32,7 +32,9 @@ public class Main {
             }
             scanner.nextLine(); // Consume newline
 
-            students[i] = new Student(name, roll, marks);
+            System.out.print("Age: ");
+            int age = scanner.nextInt();
+            scanner.nextLine(); // Consume newline
         }
 
         // Analysis loop
